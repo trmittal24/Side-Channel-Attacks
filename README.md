@@ -1,6 +1,7 @@
 # Side Channel Attacks
 
 This repo contains all the codes uploaded on Arduino for power analysis and all the python codes used to process the power traces.
+You can watch the video of live demo [here].
 
   - # Basic_Operations.ino
     This contains the arduino code performing different operations in loop so that the varied power consumption is visible.
@@ -27,3 +28,6 @@ This repo contains all the codes uploaded on Arduino for power analysis and all 
     Will decode the acquired UART data to give the cipher text. Pass the required *.mat* file as an argument to the command.
     
 Use the key obtained from processing.py along with ciphertext to get back the message.
+
+
+[here]: https://youtu.be/rZ0nI8NSrhM
