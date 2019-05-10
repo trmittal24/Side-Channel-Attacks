@@ -3,16 +3,16 @@
 This repo contains all the codes uploaded on Arduino for power analysis and all the python codes used to process the power traces.
 You can watch the video of live demo [here].
 
-  - # Basic_Operations.ino
+  - ### Basic_Operations.ino
     This contains the arduino code performing different operations in loop so that the varied power consumption is visible.
 
-  - # Transmit
+  - ### Transmit
     Contains code for the transmitting Arduino.
 
-  - # Receive
+  - ### Receive
     Contains code for the receiving Arduino.
  
-  - # mod_expo
+  - ### mod_expo
     This contains all the captured traces (.mat files) from the Oscilloscope using KeySight BenchVue software. The file name corresponds to the key used for the particular power trace. 
 
     **generate_cheats**
@@ -21,7 +21,7 @@ You can watch the video of live demo [here].
     **processing**
     It uses the features extracted to determine the key of the power trace. Pass the required *.mat* file as an argument to the command. 
 
-  - # UART_trace
+  - ### UART_trace
     Contains the encrypted UART data snooped from the secure communication channel saved in *.mat* files.
 
     **decrypt**
